@@ -20,7 +20,7 @@ class Recommended extends React.Component {
     this.pageNext = this.pageNext.bind(this);
     this.setPage = this.setPage.bind(this);
     this.scollLeft = this.scollLeft.bind(this);
-    this.scollRight = this.scollRight.bind(this)
+    this.scollRight = this.scollRight.bind(this);
   }
 
   componentDidMount() {
@@ -109,7 +109,7 @@ const Title = styled.h2`
   font-size: 2rem;
   line-height: 2.6876rem;
   font-weight: 400;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 `;
 const ContainWrapper = styled.div`
   display: flex;

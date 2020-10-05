@@ -11,4 +11,4 @@ logs
 *.log
 
 # Compiled Dirs
-dist/
+bundle.js
